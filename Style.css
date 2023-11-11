@@ -1,0 +1,157 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html{
+    height:100vh;
+    width: 100vw;
+    font-family:'Ubuntu', sans-serif;
+}
+
+
+
+body{
+    background-image: url("img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.main{
+    width: 70%;
+    height: 100%;
+    margin-top: 20px;
+    padding:70px;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+#header{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+nav{
+
+    background-color: lime;
+    display : flex;
+    justify-content: center;
+    height: 32px;
+    align-items: center;
+
+}
+
+
+
+
+.buttons li {
+  display: inline-block;
+
+}
+
+
+
+
+.elenco{
+width: 100%;
+}
+
+
+
+
+.monopattino{
+  margin-top: 16px;
+}
+
+
+
+
+li{
+  list-style-type: none;
+}
+
+
+
+
+#titolo,#logo{
+    color:lime;
+}
+
+
+
+
+#logo{
+  width: 150px;
+}
+
+
+
+
+.indirizzo:before{
+  content: "\21A6";
+}
+
+
+
+
+
+input[type="checkbox"]{
+  width: 10px;
+  height: 10px;
+}
+
+
+
+
+.progressbar{
+    height: 20px;
+    border-radius: 5px;
+}
+
+
+.high{
+    width: 57%;
+    background-color: rgb(38,196,49);
+}
+
+
+.mid{
+    width: 30%;
+    background-color: rgb(236,191,86);
+}
+
+
+.low{
+    width: 13%;
+    background-color: rgb(200,41,65);
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: lighter;
+
+}
+.indirizzo{
+    font-weight: lighter;
+    margin-top: 4px;
+}
